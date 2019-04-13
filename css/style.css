@@ -1,7 +1,8 @@
 body {
   margin: 0;
-  background-color: rgb(248, 238, 238);
+  background-color: #f8eeee;
 }
+
 .joke {
   height: 100vh;
   background-image: url(../images/chuck_norris_PNG19.png);
@@ -12,10 +13,14 @@ body {
   align-content: space-around;
   align-items: flex-start;
   justify-content: center;
-  .panel {
-    margin: 10vh 20px;
-    .btn {
-      margin: 10px;
-    }
-  }
 }
+
+.joke .panel {
+  margin: 10vh 20px;
+}
+
+.joke .panel .btn {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
