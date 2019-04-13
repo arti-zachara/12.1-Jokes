@@ -1,7 +1,7 @@
 {
-  "name": "12.1-quotes",
+  "name": "12.1-jokes",
   "version": "1.0.0",
-  "description": "Kodilla task 12.4-12.5",
+  "description": "Kodilla task 12.4",
   "main": "index.js",
   "scripts": {
     "test": "npm-run-all test:*",
