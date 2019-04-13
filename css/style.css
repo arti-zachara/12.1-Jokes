@@ -1,26 +1,9 @@
-body {
-  margin: 0;
-  background-color: #f8eeee;
-}
+body { margin: 0; background-color: #f8eeee; }
 
-.joke {
-  height: 100vh;
-  background-image: url(../images/chuck_norris_PNG19.png);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: flex;
-  align-content: space-around;
-  align-items: flex-start;
-  justify-content: center;
-}
+.joke { height: 100vh; background-image: url(../images/chuck_norris_PNG19.png); background-position: bottom right; background-repeat: no-repeat; background-size: 100%; display: -ms-flexbox; display: flex; -ms-flex-line-pack: distribute; align-content: space-around; -ms-flex-align: start; align-items: flex-start; -ms-flex-pack: center; justify-content: center; }
 
-.joke .panel {
-  margin: 10vh 20px;
-}
+.joke .panel { margin: 10vh 20px; max-width: 90vw; }
 
-.joke .panel .btn {
-  margin: 10px;
-}
+.joke .panel .btn { margin: 10px; }
 
-/*# sourceMappingURL=style.css.map */
+.joke .panel p { line-height: 20px; min-height: 20px; }
